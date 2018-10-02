@@ -44,7 +44,7 @@ def directoryCheck():
     pathlib.Path(saveDirSpace).mkdir(parents=True, exist_ok=True)
     pathlib.Path(saveDirNatGeoPoD).mkdir(parents=True, exist_ok=True)
     pathlib.Path(saveDirDesktoppr).mkdir(parents=True, exist_ok=True)
-    pathlib.Path(saveDirWikipedia).mkdir(parents=True, exist_ok =True)
+    pathlib.Path(saveDirWikipedia).mkdir(parents=True, exist_ok=True)
 
 
 def throw_choices():

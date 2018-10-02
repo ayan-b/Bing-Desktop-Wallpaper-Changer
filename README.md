@@ -13,7 +13,8 @@
 * Bing Picture of the Day
 * Random Pictures from Unsplash.com
 * National Geographic Picture of the Day
-* Random Images from Desktoppr.
+* Random Images from Desktoppr
+* Wikimedia Picture of the Day.
 
 **Contributing**:
     Please head over to [CONTRIBUTING.md](/CONTRIBUTING.md) to check out how the code works and some guidelines regarding contributions!
