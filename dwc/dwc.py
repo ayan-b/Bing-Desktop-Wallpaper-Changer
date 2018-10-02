@@ -53,8 +53,8 @@ def throw_choices():
                 1: Bing Image of the Day,
                 2: Random Pictures from Unsplash,
                 3: National Geographic PoD,
-                4: Random Images from Desktoppr
-                5: Picture of the Day from Wikipedia""",)
+                4: Random Images from Desktoppr,
+                5: Picture of the Day from Wikipedia""")
 
     choice = int(input())
     return choice
@@ -89,7 +89,7 @@ def main():
     elif choice == 4:
         desktoppr_wallpaper_changer.change_wp(
             wp_desktoppr, saveDirDesktoppr, SHOW_DEBUG)
-        
+
     elif choice == 5:
         wikipedia_wallpaper_changer.change_wp(
             wp_wikipedia, saveDirWikipedia, SHOW_DEBUG)
