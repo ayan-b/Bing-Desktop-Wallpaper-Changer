@@ -26,6 +26,7 @@ def picpath_wikipedia(saveDir, SHOW_DEBUG):
     savelink = save_image(photo_url, wikipedia_path, SHOW_DEBUG)
     return savelink
 
+
 def change_wp(wp_wikipedia, saveDir, SHOW_DEBUG):
     savelink = picpath_wikipedia(saveDir, SHOW_DEBUG)
     set_wallpaper_permanent(savelink, SHOW_DEBUG)
