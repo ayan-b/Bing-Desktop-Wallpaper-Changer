@@ -17,3 +17,8 @@
 
 **Contributing**:
     Please head over to [CONTRIBUTING.md](/CONTRIBUTING.md) to check out how the code works and some guidelines regarding contributions!
+
+## Contributors
+
+* [Ayan Banerjee](https://github.com/ayan-b)
+* [Brett Vanderwerff](https://github.com/brettvanderwerff)
