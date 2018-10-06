@@ -10,7 +10,7 @@ Desktop Wallpaper Changer fetches images from popular sources and set those as y
 - National Geographic Picture of the Day
 - Random Images from Desktoppr.
 
-[https://apod.nasa.gov/apod/astropix.html](header.jpg)
+![](header.jpg) [^1]
 
 **Platform**:
 Windows
@@ -22,3 +22,5 @@ Please head over to [CONTRIBUTING.md](/CONTRIBUTING.md) to check out how the cod
 * [Ayan Banerjee](https://github.com/ayan-b)
 * [Brett Vanderwerff](https://github.com/brettvanderwerff)
 * [Evan Haberecht](https://github.com/habereet)
+
+[^1] https://apod.nasa.gov/apod/astropix.html
