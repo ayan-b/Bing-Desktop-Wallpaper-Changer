@@ -1,7 +1,7 @@
 # Desktop Wallpaper Changer
 > This python script fetches images from popular sources and set those as your desktop wallpaper.
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/54b27c2612ee4301924e701d1b081375)](https://app.codacy.com/app/ayan-b/Desktop-Wallpaper-Changer?utm_source=github.com&utm_medium=referral&utm_content=ayan-b/Desktop-Wallpaper-Changer&utm_campaign=Badge_Grade_Settings)[![Build Status](https://travis-ci.org/ayan-b/Desktop-Wallpaper-Changer.svg?branch=master)](https://travis-ci.org/ayan-b/Desktop-Wallpaper-Changer) <!--[![HitCount](http://hits.dwyl.io/ayan-b/Desktop-Wallpaper-Changer.svg)](http://hits.dwyl.io/ayan-b/Desktop-Wallpaper-Changer)-->
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/54b27c2612ee4301924e701d1b081375)](https://app.codacy.com/app/ayan-b/Desktop-Wallpaper-Changer?utm_source=github.com&utm_medium=referral&utm_content=ayan-b/Desktop-Wallpaper-Changer&utm_campaign=Badge_Grade_Settings) [![Build Status](https://travis-ci.org/ayan-b/Desktop-Wallpaper-Changer.svg?branch=master)](https://travis-ci.org/ayan-b/Desktop-Wallpaper-Changer) [![HitCount](http://hits.dwyl.io/ayan-b/Desktop-Wallpaper-Changer.svg)](http://hits.dwyl.io/ayan-b/Desktop-Wallpaper-Changer)
 
 Desktop Wallpaper Changer fetches images from popular sources and set those as your desktop wallpaper. Currently supported sources are:
 - NASA Astronomical Picture of the Day
