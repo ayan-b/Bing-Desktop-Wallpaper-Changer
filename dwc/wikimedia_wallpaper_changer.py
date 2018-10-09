@@ -18,15 +18,15 @@ def getphotourl():
         return photo_url
 
 
-def picpath_wikipedia(saveDir, SHOW_DEBUG):
+def picpath_wikimedia(saveDir, SHOW_DEBUG):
     photo_url = getphotourl()
-    wikipedia_path = saveDir + 'Wikipedia:' + str(date) + '.jpg'
+    wikimedia_path = saveDir + 'Wikimedia:' + str(date) + '.jpg'
     if SHOW_DEBUG:
         print('Download from:', photo_url)
-    savelink = save_image(photo_url, wikipedia_path, SHOW_DEBUG)
+    savelink = save_image(photo_url, wikimedia_path, SHOW_DEBUG)
     return savelink
 
 
-def change_wp(wp_wikipedia, saveDir, SHOW_DEBUG):
-    savelink = picpath_wikipedia(saveDir, SHOW_DEBUG)
+def change_wp(wp_wikimedia, saveDir, SHOW_DEBUG):
+    savelink = picpath_wikimedia(saveDir, SHOW_DEBUG)
     set_wallpaper_permanent(savelink, SHOW_DEBUG)
