@@ -13,8 +13,8 @@ def getphotourl():
     source = requests.get(url)
     if source.status_code == 200:
         soup = BeautifulSoup(source.text, 'html.parser')
-        potd_element = soup.find('div', {'id': 'mainpage-potd'})
-        photo_url = potd_element.find('img')['src']
+        potd_element = soup.find('meta', {'property': 'og:image'})
+        photo_url = potd_element['content']
         return photo_url
 
 
