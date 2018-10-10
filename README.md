@@ -14,6 +14,19 @@ Desktop Wallpaper Changer fetches images from popular sources and set those as y
 **Platform**:
 Windows
 
+## Installation
+1. Clone or [Download](https://github.com/ayan-b/Desktop-Wallpaper-Changer/archive/master.zip) the project.
+2. Open your favorite CLI and navigate to the prject folder
+3. Create a Virtual Environment (to better manage project's dependencies)
+`python3 -m venv dwcVenv`
+`.\dwcVenv\Scripts\activate`
+
+4. Install Dependencies `pip install -r requirements.txt`
+5. Execute the Script `python dwc\dwc.py`
+6. Select a source and treat yourself with a new wallpaper!
+
+**or** you can also run `python3 setup.py install` after Step 2.
+
 **Contributing**:
 Please head over to [CONTRIBUTING.md](/CONTRIBUTING.md) to check out how the code works and some guidelines regarding contributions!
 
