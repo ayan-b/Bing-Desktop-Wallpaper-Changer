@@ -9,10 +9,12 @@ Desktop Wallpaper Changer fetches images from popular sources and set those as y
 - Bing Picture of the Day
 - Random Pictures from Unsplash.com
 - National Geographic Picture of the Day
-- Random Images from Desktoppr.
+- Random Images from Desktoppr
+- Wikimedia Picture of the Day.
 
 **Platform**:
 Windows
+
 
 **Contributing**:
 Please head over to [CONTRIBUTING.md](/CONTRIBUTING.md) to check out how the code works and some guidelines regarding contributions!
@@ -21,3 +23,4 @@ Please head over to [CONTRIBUTING.md](/CONTRIBUTING.md) to check out how the cod
 * [Ayan Banerjee](https://github.com/ayan-b)
 * [Brett Vanderwerff](https://github.com/brettvanderwerff)
 * [Evan Haberecht](https://github.com/habereet)
+* [Christopher He](https://github.com/hecris)

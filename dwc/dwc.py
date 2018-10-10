@@ -9,6 +9,7 @@ import desktoppr_wallpaper_changer
 import natgeopod_wallpaper_changer
 import pod_wallpaper_changer
 import unsplash_wallpaper_changer
+import wikimedia_wallpaper_changer
 
 SHOW_DEBUG = True
 
@@ -21,6 +22,7 @@ if os.path.exists("F:") is True:
     saveDirSpace = "F:\\WallPaper\\Space\\"
     saveDirNatGeoPoD = "F:\\WallPaper\\NatGeoPoD\\"
     saveDirDesktoppr = "F:\\WallPaper\\Desktoppr\\"
+    saveDirWikimedia = "F:\\WallPaper\\Wikimedia\\"
 
 else:
     saveDirBing = os.path.join(os.getcwd(), r'WallPaper\\Bing\\')
@@ -29,6 +31,7 @@ else:
     saveDirSpace = os.path.join(os.getcwd(), r'WallPaper\\Space\\')
     saveDirNatGeoPoD = os.path.join(os.getcwd(), r'WallPaper\\NatGeoPoD\\')
     saveDirDesktoppr = os.path.join(os.getcwd(), r'WallPaper\\Desktoppr\\')
+    saveDirWikimedia = os.path.join(os.getcwd(), r'WallPaper\\Wikimedia\\')
 
 date = datetime.date.today()
 
@@ -41,6 +44,7 @@ def directoryCheck():
     pathlib.Path(saveDirSpace).mkdir(parents=True, exist_ok=True)
     pathlib.Path(saveDirNatGeoPoD).mkdir(parents=True, exist_ok=True)
     pathlib.Path(saveDirDesktoppr).mkdir(parents=True, exist_ok=True)
+    pathlib.Path(saveDirWikimedia).mkdir(parents=True, exist_ok=True)
 
 
 def throw_choices():
@@ -49,7 +53,8 @@ def throw_choices():
                 1: Bing Image of the Day,
                 2: Random Pictures from Unsplash,
                 3: National Geographic PoD,
-                4: Random Images from Desktoppr""",)
+                4: Random Images from Desktoppr,
+                5: Picture of the Day from Wikimedia""")
 
     choice = int(input())
     return choice
@@ -64,6 +69,7 @@ def main():
     wp_unsplash = saveDirUnsplash + 'unsplash' + str(date) + '.jpg'
     wp_natgeo_pod = saveDirNatGeoPoD + 'NatGeo_PoD' + str(date) + '.jpg'
     wp_desktoppr = saveDirDesktoppr + 'Desktoppr' + str(date) + '.jpg'
+    wp_wikimedia = saveDirWikimedia + 'Wikimedia' + str(date) + '.jpg'
 
     if choice == 1:
         bing_wallpaper_changer.change_wp(wp_bing, saveDirBing, SHOW_DEBUG)
@@ -83,6 +89,10 @@ def main():
     elif choice == 4:
         desktoppr_wallpaper_changer.change_wp(
             wp_desktoppr, saveDirDesktoppr, SHOW_DEBUG)
+
+    elif choice == 5:
+        wikimedia_wallpaper_changer.change_wp(
+            wp_wikimedia, saveDirWikimedia, SHOW_DEBUG)
 
 
 if __name__ == '__main__':
