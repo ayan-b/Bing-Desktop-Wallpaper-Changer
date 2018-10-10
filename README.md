@@ -16,12 +16,12 @@ Windows
 
 ## Installation
 1. Clone or [Download](https://github.com/ayan-b/Desktop-Wallpaper-Changer/archive/master.zip) the project.
-2. Open your favorite CLI and navigate to the prject folder
+2. Open your favorite CLI and navigate to the project folder
 3. Create a Virtual Environment (to better manage project's dependencies)
 `python3 -m venv dwcVenv`
 `.\dwcVenv\Scripts\activate`
 
-4. Install Dependencies `pip install -r requirements.txt`
+4. Install Dependencies using pip `pip install -r requirements.txt`
 5. Execute the Script `python dwc\dwc.py`
 6. Select a source and treat yourself with a new wallpaper!
 
@@ -34,3 +34,4 @@ Please head over to [CONTRIBUTING.md](/CONTRIBUTING.md) to check out how the cod
 * [Ayan Banerjee](https://github.com/ayan-b)
 * [Brett Vanderwerff](https://github.com/brettvanderwerff)
 * [Evan Haberecht](https://github.com/habereet)
+* [Ankit Rai](https://github.com/ankitrai96)
