@@ -2,5 +2,5 @@ requests>=2.20.1
 Pillow>=5.2.0
 beautifulsoup4>=4.6.0
 pywin32>=223; sys_platform == 'win32'
-pycairo; sys_platform == 'linux'
+pycairo==1.18.1; sys_platform == 'linux'
 PyGObject; sys_platform == 'linux'
